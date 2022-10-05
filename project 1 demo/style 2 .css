@@ -1,0 +1,22 @@
+a:hover {
+    background-color: yellow;
+  }
+  p:hover, h1:hover, a:hover {
+    background-color: yellow;
+  }
+  div {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+  }
+  
+  => 
+  
+  div {
+    transition: width 2s linear 1s;
+  }
+  div {
+    transform: rotate(20deg);
+  }
+      
